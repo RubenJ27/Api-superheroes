@@ -1,0 +1,22 @@
+{
+  "name": "api-superheroes",
+  "version": "1.0.0",
+  "description": "Una aplicacion para ver los superheroes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubenJ27/Api-superheroes.git"
+  },
+  "author": "RubenJC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubenJ27/Api-superheroes/issues"
+  },
+  "homepage": "https://github.com/RubenJ27/Api-superheroes#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
