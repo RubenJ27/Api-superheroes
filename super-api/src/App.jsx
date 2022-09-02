@@ -11,7 +11,7 @@ function App() {
   
 
   const llamarNuestraApi = async () => {
-    const response = await fetch('http://localhost:4000/superheroes');
+    const response = await fetch('https://mi-api-de-superheroes.herokuapp.com/superheroes');
     const datos = await response.json();
     setHeroes(datos);
   };
