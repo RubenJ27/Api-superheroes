@@ -11,10 +11,11 @@ function App() {
   
 
   const llamarNuestraApi = async () => {
-    const response = await fetch('https://mi-api-de-superheroes.herokuapp.com/superheroes');
+    const response = await fetch('https://api-superheroes-9d2b8-default-rtdb.firebaseio.com/superheroes');
     const datos = await response.json();
     setHeroes(datos);
   };
+  
 
 
   return (

@@ -184,7 +184,8 @@
       "estreno": "Septiembre de 1964",
       "descripcion": "Ojo de Halcán fue creado por Stan Lee y Don Heck en una ápoca en que la editorial se esforzaba por crear hároes falibles. Hizo su primera aparicián en el mundo de los cámics en Tales of Suspense en septiembre de 1964. Por extraáo que parezca, el personaje era por entonces un villano.",
       "editorial": "Marvel Comics",
-      "tipo": "hehttps://firebasestorage.googleapis.com/v0/b/api-superheroes-9d2b8.appspot.com/o/marvel%2Fojo.webp?alt=media&token=71d213e8-016c-4359-baa3-ceb6f3edd93c"
+      "tipo": "heroes-marvel",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/api-superheroes-9d2b8.appspot.com/o/marvel%2Fojo.webp?alt=media&token=71d213e8-016c-4359-baa3-ceb6f3edd93c"
     },
     {
       "id": "caballero-luna",
