@@ -8,7 +8,7 @@ export const LoginPage = () => {
   return (
     <div className="flex h-screen justify-center items-center">
       <button onClick={logIn} className="bg-blue-600 py-2 px-6 rounded-lg font-bold text-white">
-        Ingresar 
+        Ingresar 😊
       </button>
     </div>
   )

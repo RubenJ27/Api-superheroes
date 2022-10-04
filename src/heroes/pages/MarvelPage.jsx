@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import heroesApi from "../../api/HeroesApi";
+import {Loader} from "../components/Loader";
 
 export const MarvelPage = () => {
   const [getHeroes, setGetHeroes] = useState([]);
@@ -13,11 +14,19 @@ export const MarvelPage = () => {
     try {
       const response = await heroesApi.get("/superheroes?tipo=heroes-marvel");
       setGetHeroes(response.data);
-      console.log(response.data);
+      /*    console.log(response.data); */
     } catch (error) {
       console.log(error);
     }
   };
+
+  if (!getHeroes.length) {
+    return(
+    <div className="flex justify-center items-center mt-72">
+      <Loader />
+    </div>
+    );
+  }
 
   return (
     <>

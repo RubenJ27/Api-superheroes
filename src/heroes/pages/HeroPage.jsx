@@ -29,7 +29,7 @@ export const HeroPage = () => {
     <>
       <div
         key={getHeroes.id}
-        className="w-1/1 sm:w-1/2 grid sm:grid-cols-2 rounded-2xl shadow-2xl bg-gray-900 m-8"
+        className="w-1/1 sm:w-1/2 grid sm:grid-cols-2 rounded-2xl shadow-2xl bg-gray-900 m-8 animate__animated animate__fadeInLeft"
       >
         <img
           src={getHeroes.imagen}
