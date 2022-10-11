@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = 'https://api-superheroes-server.herokuapp.com';
+const baseURL = 'https://nodejs-api-heroes.up.railway.app';
 
 const heroesApi = axios.create({ baseURL })
 
