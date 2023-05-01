@@ -14,7 +14,7 @@ export const DcPage = () => {
     try {
       const response = await heroesApi.get("/superheroes?tipo=heroes-dc");
       setGetHeroes(response.data);
-   /*    console.log(response.data); */
+      console.log(response.data);
     } catch (error) {
       console.log(error);
     }
