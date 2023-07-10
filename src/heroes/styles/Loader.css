@@ -1,18 +1,18 @@
-.loader{
+.loader {
   font-size: 48px;
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   position: relative;
 }
-.loader:after{
-  content: 'Cargando 🙄';
+.loader:after {
+  content: "Cargando 🙄";
   position: relative;
   z-index: 5;
 }
-.loader:before{
-  content: '';
+.loader:before {
+  content: "";
   height: 6px;
   border: 1px solid;
   border-radius: 10px;
@@ -24,4 +24,8 @@
   animation: 10s lineGrow linear infinite;
 }
 
-@keyframes lineGrow {to {  background-size: 100% auto}}
+@keyframes lineGrow {
+  to {
+    background-size: 100% auto;
+  }
+}
